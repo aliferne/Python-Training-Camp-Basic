@@ -21,4 +21,4 @@ def calculate_area(length, width=None):
     - 计算得到的面积
     """
     # 请在下方编写代码
-    pass 
+    return length * width if width else length ** 2
